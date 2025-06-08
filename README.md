@@ -32,8 +32,6 @@ Hint Feature: Fills in one correct cell when you ask for a hint.
 Customizations: Dark mode/theme switch, and options to change board font style/size.
 Enhancements: Animations, keyboard navigation, and the ability to input your own puzzles.
 Difficulty Settings: Choose Easy, Medium, or Hard puzzles.
-License
-[Specify your license here, e.g., MIT License]
 
 Acknowledgments
 Kshitij Web Development & AI Workshop 2025.
