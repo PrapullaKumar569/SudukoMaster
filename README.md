@@ -1,78 +1,41 @@
-A modern and responsive media discovery platform built with HTML and CSS, featuring a beautiful dark/light mode toggle and interactive UI elements.
+Sudoku Game
+A web-based Sudoku puzzle built with HTML, CSS, and JavaScript.
 
-🌟 Features
+Features
+Responsive Design: Works on all devices.
+Sudoku Board: A 9×9 grid where prefilled numbers are fixed, and blank cells are input boxes.
+New Puzzles: Generates new puzzles automatically when the page loads or you click "New Game". Each puzzle has only one solution.
+Validation: Checks your solution, highlights wrong numbers, and shows messages for errors or success.
 
-Responsive Design: Fully responsive layout that works on all devices
-Dark/Light Mode: Seamless theme switching with persistent preferences
-Interactive UI:
-Movie and TV show cards with hover effects
-Watchlist functionality
-User reviews section
-Modal windows for detailed information
-Modern Design: Clean and intuitive interface with smooth animations
-Accessibility: Semantic HTML and ARIA attributes for better accessibility
+Game Controls: "Reset" button clears your entries (with a confirmation warning) , and "New Game" button loads a fresh puzzle.
 
-
-🎨 Sections
-
-Navigation Bar: Fixed position with logo and menu items
-Hero Section: Engaging hero section with call-to-action
-Trending Movies: Grid layout of trending movies with hover effects
-Popular Shows: Grid layout of popular TV shows
-User Reviews: User testimonials and review submission form
-Footer: Comprehensive footer with social links and navigation
-
-
-🛠️ Technologies Used
-
+Player Stats: Tracks puzzles solved, fastest time, and total time, saved using localStorage. You can also reset your stats.
+Clean Code: Code is reusable, easy to read, and follows the DRY principle.
+Puzzle Logic: Uses JavaScript with backtracking to generate valid Sudoku puzzles with unique solutions.
+How to Play
+Open index.html in your browser.
+Enter numbers (1-9) into the blank cells.
+Click "Check Solution" to see if you're right.
+Click "Reset" to clear your entries.
+Click "New Game" for a new puzzle.
+Technologies Used
 HTML5
-CSS3
-CSS Variables for theming
-CSS Grid and Flexbox for layouts
-CSS Animations and Transitions
+CSS3 (can use frameworks like Bootstrap) 
+JavaScript (variables, functions, loops, arrays, DOM manipulation are important) 
+Getting Started
+Clone the repository: git clone https://github.com/yourusername/sudoku-game.git
+Go to the folder: cd sudoku-game
+Open index.html in your browser.
+Bonus Features (if implemented)
+Timer & Leaderboard: Tracks your solve time and keeps a list of best times.
+Hint Feature: Fills in one correct cell when you ask for a hint.
+Customizations: Dark mode/theme switch, and options to change board font style/size.
+Enhancements: Animations, keyboard navigation, and the ability to input your own puzzles.
+Difficulty Settings: Choose Easy, Medium, or Hard puzzles.
+License
+[Specify your license here, e.g., MIT License]
 
-
-🚀 Getting Started
-
-Clone the repository:
-git clone https://github.com/yourusername/cineflix.git
-Open index.html in your browser to view the website
-📱 Responsive Breakpoints
-Large screens: 1200px and above
-Medium screens: 992px to 1199px
-Tablets: 768px to 991px
-Mobile: 576px and below
-
-
-🎯 Features in Detail
-
-Theme Toggle
-Smooth transition between light and dark modes
-Persistent theme preference
-Accessible toggle switch with icons
-Movie/Show Cards
-Hover effects with overlay
-Watchlist toggle functionality
-Responsive image handling
-Modal windows for additional information
-User Reviews
-Grid layout for reviews
-Interactive rating system
-Review submission form
-Responsive design for all screen sizes
-
-
-🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-👥 Authors
-Your Name - Initial work
-🙏 Acknowledgments
-Icons from Font Awesome
-Images from Unsplash
-Inspiration from popular streaming platforms
+Acknowledgments
+Kshitij Web Development & AI Workshop 2025.
+Resources like GeeksforGeeks for Sudoku generation.
+Advice on debugging and learning from online resources
